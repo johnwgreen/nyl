@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-author",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-15T12:17:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.newyorklife.com/report-to-policy-owners",
+    "originPage": "2025 Report to Policy Owners",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "author-bio",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + subtitle",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "executive bio sections",
+      "author attribution areas",
+      "speaker profile introductions",
+      "CEO letter pages"
+    ],
+    "notSuitableFor": [
+      "multi-item grids",
+      "product comparison layouts",
+      "full-width image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/report-to-policy-owners"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-15T12:17:00.000Z"
+  }
+}
