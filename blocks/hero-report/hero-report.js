@@ -6,8 +6,8 @@ export default function decorate(block) {
     if (match) {
       const pretitle = document.createElement('span');
       pretitle.className = 'pretitle';
-      pretitle.textContent = match[1];
-      h1.textContent = match[2];
+      [, pretitle.textContent] = match;
+      [,, h1.textContent] = match;
       h1.prepend(pretitle);
     }
   }
